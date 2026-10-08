@@ -260,6 +260,35 @@ h2 {
     color: var(--texto);
 }
 
+/* Botão de acesso ao AVA no cabeçalho */
+.cabecalho .botao-ava {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+/* Seções reservadas para conteúdo ainda não disponível */
+.reservado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: var(--verde-claro);
+    border: 2px dashed var(--verde);
+    border-radius: 12px;
+    padding: 32px 20px;
+    text-align: center;
+}
+
+.reservado .icone {
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.reservado p {
+    margin: 0;
+    color: var(--texto-claro);
+}
+
 /* Chamada de contato */
 .chamada-contato {
     background: var(--verde-claro);
