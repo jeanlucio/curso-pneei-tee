@@ -217,28 +217,44 @@
             ou superior a 60 (sessenta).</p>
     </section>
 
-    <section id="ppc">
-        <h2>Projeto Pedagógico do Curso (PPC)</h2>
-        <div class="reservado">
-            <span class="icone" aria-hidden="true">📄</span>
-            <p>O PPC do curso será disponibilizado aqui em breve.</p>
-        </div>
-    </section>
+    <section id="recursos">
+        <h2>Documentos e mídias</h2>
+        <div class="abas">
+            <div class="abas-lista" role="tablist" aria-label="Documentos e mídias do curso" hidden>
+                <button type="button" role="tab" id="aba-ppc" aria-controls="ppc">PPC</button>
+                <button type="button" role="tab" id="aba-materiais" aria-controls="materiais">Materiais do curso</button>
+                <button type="button" role="tab" id="aba-galeria" aria-controls="galeria">Galeria de fotos e vídeos</button>
+            </div>
 
-    <section id="materiais">
-        <h2>Materiais do curso</h2>
-        <p>Documentos em PDF e links de apoio ao curso.</p>
-        <div class="reservado">
-            <span class="icone" aria-hidden="true">📚</span>
-            <p>Os materiais do curso serão publicados aqui em breve.</p>
-        </div>
-    </section>
+            <div class="painel-aba" id="ppc" role="tabpanel" aria-labelledby="aba-ppc" tabindex="0">
+                <h3>Projeto Pedagógico do Curso (PPC)</h3>
+                <p>Documento que reúne a fundamentação, os objetivos, a matriz curricular e a
+                    avaliação do curso.</p>
+                <p class="acoes-documento">
+                    <a class="botao-principal" href="./PPC.pdf" download>Baixar o PPC (PDF, 282 KB)</a>
+                    <a class="link-secundario" href="./PPC.pdf" target="_blank" rel="noopener">Abrir em nova aba
+                        <span class="visually-hidden">(abre em nova aba)</span></a>
+                </p>
+                <iframe class="visualizador-pdf" src="./PPC.pdf" title="Projeto Pedagógico do Curso (PDF)"
+                    loading="lazy"></iframe>
+            </div>
 
-    <section id="galeria">
-        <h2>Galeria de fotos e vídeos</h2>
-        <div class="reservado">
-            <span class="icone" aria-hidden="true">🖼️</span>
-            <p>As fotos e os vídeos do curso serão publicados aqui em breve.</p>
+            <div class="painel-aba" id="materiais" role="tabpanel" aria-labelledby="aba-materiais" tabindex="0">
+                <h3>Materiais do curso</h3>
+                <p>Documentos em PDF e links de apoio ao curso.</p>
+                <div class="reservado">
+                    <span class="icone" aria-hidden="true">📚</span>
+                    <p>Os materiais do curso serão publicados aqui em breve.</p>
+                </div>
+            </div>
+
+            <div class="painel-aba" id="galeria" role="tabpanel" aria-labelledby="aba-galeria" tabindex="0">
+                <h3>Galeria de fotos e vídeos</h3>
+                <div class="reservado">
+                    <span class="icone" aria-hidden="true">🖼️</span>
+                    <p>As fotos e os vídeos do curso serão publicados aqui em breve.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -263,5 +279,6 @@
     <p><a href="acessibilidade.html">Página de acessibilidade</a></p>
 </footer>
 
+<script src="./abas.js"></script>
 </body>
 </html>
