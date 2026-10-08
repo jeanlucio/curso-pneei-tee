@@ -17,7 +17,7 @@ Todos devem ficar na **mesma pasta**:
 | `acessibilidade.html` | Página de acessibilidade |
 | `styles.css` | Estilos |
 | `abas.js` | Script das abas (PPC, Materiais, Galeria) |
-| `Curso.png` | Banner do curso |
+| `Curso.webp` | Banner do curso |
 | `PPC.pdf` | Projeto Pedagógico do Curso |
 
 Os demais arquivos do repositório (`.git`, `.gitignore`, `.nojekyll`, `README.md`) **não precisam** ir para o
